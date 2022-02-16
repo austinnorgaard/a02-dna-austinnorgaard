@@ -18,6 +18,10 @@ mono_crash.*
 
 # Build results
 [Dd]ebug/
+/[Dd]ebug
+/[Dd]ebug/
+\Debug
+\debug
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
