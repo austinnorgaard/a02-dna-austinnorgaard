@@ -1,25 +1,18 @@
 ﻿  DNAStrand.cpp
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(83,1): error C2556: 'int DNAStrand::read(std::istream &)': overloaded function differs only by return type from 'DNAStrand::FLAG DNAStrand::read(std::istream &)'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(39): message : see declaration of 'DNAStrand::read'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(82,16): error C2371: 'DNAStrand::read': redefinition; different basic types
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(39): message : see declaration of 'DNAStrand::read'
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(89,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(95,16): error C2065: 'ILLEGAL_BASE_FLAG': undeclared identifier
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(99,16): error C2065: 'ILLEGAL_BASE_FLAG': undeclared identifier
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(103,16): error C2065: 'ILLEGAL_BASE_FLAG': undeclared identifier
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(185,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(209,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(233,19): error C2039: 'hammingDistance': is not a member of 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(22): message : see declaration of 'DNAStrand'
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(20): message : see declaration of 'DNAStrand'
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(234,1): error C2270: 'hammingDistance': modifiers not allowed on nonmember functions
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(237,22): error C2065: 'mBases': undeclared identifier
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(239,7): error C2065: 'mBases': undeclared identifier
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(239,31): error C2248: 'DNAStrand::mBases': cannot access private member declared in class 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(53): message : see declaration of 'DNAStrand::mBases'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(22): message : see declaration of 'DNAStrand'
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(51): message : see declaration of 'DNAStrand::mBases'
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(20): message : see declaration of 'DNAStrand'
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(245,21): error C2065: 'mBases': undeclared identifier
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(248,6): error C2065: 'mBases': undeclared identifier
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(248,35): error C2248: 'DNAStrand::mBases': cannot access private member declared in class 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(53): message : see declaration of 'DNAStrand::mBases'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(22): message : see declaration of 'DNAStrand'
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(51): message : see declaration of 'DNAStrand::mBases'
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(20): message : see declaration of 'DNAStrand'
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(250,21): error C2065: 'HAMMING_LENGTH_ERROR': undeclared identifier
