@@ -79,7 +79,7 @@ Returned:			LEGAL_BASE_FLAG	   - Returned if the reading is done
 																	 and there are illegal bases read into
 																	 mBases
 ****************************************************************************/
-int DNAStrand::read (istream &rcInStream)
+enum DNAStrand::FLAG read (istream &rcInStream)
 {
 	const int LENGTH = 3;
 	int baseFlag = 0;

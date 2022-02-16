@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DNAStrandSet", "DNAStrandSet\DNAStrandSet.vcxproj", "{677D72AA-9E1B-479E-992C-40B8C50174C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86C17C97-5D1A-483C-BBB3-EB89B94B57CD} = {86C17C97-5D1A-483C-BBB3-EB89B94B57CD}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DNAStrand", "DNAStrand\DNAStrand.vcxproj", "{86C17C97-5D1A-483C-BBB3-EB89B94B57CD}"
 EndProject
