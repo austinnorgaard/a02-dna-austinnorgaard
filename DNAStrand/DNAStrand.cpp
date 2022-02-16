@@ -82,7 +82,7 @@ Returned:			LEGAL_BASE_FLAG	   - Returned if the reading is done
 enum DNAStrand::FLAG DNAStrand::read (istream &rcInStream)
 {
 	const int LENGTH = 3;
-	FLAG baseFlag;
+	FLAG baseFlag = LEGAL;
 	// Verify the file contains data for mID and mBases for at least 1 strand
 	if (rcInStream >> mID >> mBases)
 	{
@@ -220,17 +220,17 @@ double DNAStrand::gcContent	() const
 }
 
 /****************************************************************************
-Function:		hammingDistance
+Function:			hamming
 
 Description:	Return the Hamming Distance of two DNAStrands
 
 Parameters:		none
 
-Returned:		hammingDistance  - The difference of bases between two
-								   DNAStrands compared to the total length
-								   of a DNAStrand
+Returned:			hammingDistance  - The difference of bases between two
+																 DNAStrands compared to the total length
+																 of a DNAStrand
 ****************************************************************************/
-double DNAStrand::hammingDistance	(const DNAStrand &rcDNAStrand) const
+double DNAStrand::hamming	(const DNAStrand &rcDNAStrand) const
 {
 	double hammingDistance = 0.0;
 
@@ -247,7 +247,7 @@ double DNAStrand::hammingDistance	(const DNAStrand &rcDNAStrand) const
 	// Verify size of mBases of both DNA
 	if (mBases.size () != rcDNAStrand.mBases.size ())
 	{
-		hammingDistance = HAMMING_LENGTH_ERROR;
+		hammingDistance = ILLEGAL_EOF;
 	}
 
 	return hammingDistance;
