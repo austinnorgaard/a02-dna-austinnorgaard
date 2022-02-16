@@ -79,10 +79,10 @@ Returned:			LEGAL_BASE_FLAG	   - Returned if the reading is done
 																	 and there are illegal bases read into
 																	 mBases
 ****************************************************************************/
-enum DNAStrand::FLAG read (istream &rcInStream)
+enum DNAStrand::FLAG DNAStrand::read (istream &rcInStream)
 {
 	const int LENGTH = 3;
-	int baseFlag = 0;
+	FLAG baseFlag;
 	// Verify the file contains data for mID and mBases for at least 1 strand
 	if (rcInStream >> mID >> mBases)
 	{
@@ -92,15 +92,15 @@ enum DNAStrand::FLAG read (istream &rcInStream)
 			if (mBases[i] != ADENINE && mBases[i] != CYTOSINE &&
 					mBases[i] != GUANINE && mBases[i] != THYMINE)
 			{
-				baseFlag = ILLEGAL_BASE_FLAG;
+				baseFlag = ILLEGAL_BASE;
 			}
 			if (mBases == "" || mID == "")
 			{
-				baseFlag = ILLEGAL_BASE_FLAG;
+				baseFlag = ILLEGAL_BASE;
 			}
 			if (mBases.size () != LENGTH)
 			{
-				baseFlag = ILLEGAL_BASE_FLAG;
+				baseFlag = ILLEGAL_BASE;
 			}
 		}
 	}
