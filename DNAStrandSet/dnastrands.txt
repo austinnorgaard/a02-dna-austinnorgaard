@@ -1,0 +1,4 @@
+>S2 ACG
+>S3 GGG
+>S4 AAA
+>S5 CAT
