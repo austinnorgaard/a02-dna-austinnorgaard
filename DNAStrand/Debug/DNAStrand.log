@@ -2,17 +2,6 @@
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(89,21): warning C4018: '<': signed/unsigned mismatch
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(185,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(209,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(233,19): error C2039: 'hammingDistance': is not a member of 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(20): message : see declaration of 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(234,1): error C2270: 'hammingDistance': modifiers not allowed on nonmember functions
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(237,22): error C2065: 'mBases': undeclared identifier
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(239,7): error C2065: 'mBases': undeclared identifier
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(239,31): error C2248: 'DNAStrand::mBases': cannot access private member declared in class 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(51): message : see declaration of 'DNAStrand::mBases'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(20): message : see declaration of 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(245,21): error C2065: 'mBases': undeclared identifier
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(248,6): error C2065: 'mBases': undeclared identifier
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(248,35): error C2248: 'DNAStrand::mBases': cannot access private member declared in class 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(51): message : see declaration of 'DNAStrand::mBases'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.h(20): message : see declaration of 'DNAStrand'
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(250,21): error C2065: 'HAMMING_LENGTH_ERROR': undeclared identifier
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(237,20): warning C4018: '<': signed/unsigned mismatch
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\Debug\DNAStrand.exe : fatal error LNK1120: 1 unresolved externals

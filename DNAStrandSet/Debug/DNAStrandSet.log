@@ -1,2 +1,1 @@
-﻿LINK : fatal error LNK1104: cannot open file 'DNAStrand.obj'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1074,5): error MSB6006: "link.exe" exited with code 1104.
+﻿  DNAStrandSet.vcxproj -> C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\Debug\DNAStrandSet.exe

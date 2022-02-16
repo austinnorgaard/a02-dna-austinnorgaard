@@ -82,7 +82,7 @@ Returned:			LEGAL_BASE_FLAG	   - Returned if the reading is done
 enum DNAStrand::FLAG DNAStrand::read (istream &rcInStream)
 {
 	const int LENGTH = 3;
-	FLAG baseFlag = LEGAL;
+	FLAG baseFlag;
 	// Verify the file contains data for mID and mBases for at least 1 strand
 	if (rcInStream >> mID >> mBases)
 	{
@@ -104,7 +104,7 @@ enum DNAStrand::FLAG DNAStrand::read (istream &rcInStream)
 			}
 		}
 	}
-	return baseFlag;
+	return LEGAL;
 }
 
 /****************************************************************************
