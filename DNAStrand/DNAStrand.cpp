@@ -14,6 +14,8 @@
 #include <fstream>
 #include "DNAStrand.h"
 
+using namespace std;
+
 /****************************************************************************
 Function:			DNAStrand Default Constructor
 
@@ -82,7 +84,6 @@ Returned:			LEGAL_BASE_FLAG	   - Returned if the reading is done
 enum DNAStrand::FLAG DNAStrand::read (istream &rcInStream)
 {
 	const int LENGTH = 3;
-	FLAG baseFlag;
 	// Verify the file contains data for mID and mBases for at least 1 strand
 	if (rcInStream >> mID >> mBases)
 	{
@@ -92,19 +93,19 @@ enum DNAStrand::FLAG DNAStrand::read (istream &rcInStream)
 			if (mBases[i] != ADENINE && mBases[i] != CYTOSINE &&
 					mBases[i] != GUANINE && mBases[i] != THYMINE)
 			{
-				baseFlag = ILLEGAL_BASE;
+				ILLEGAL_BASE;
 			}
 			if (mBases == "" || mID == "")
 			{
-				baseFlag = ILLEGAL_BASE;
+				ILLEGAL_BASE;
 			}
 			if (mBases.size () != LENGTH)
 			{
-				baseFlag = ILLEGAL_BASE;
+				ILLEGAL_BASE;
 			}
 		}
 	}
-	return LEGAL;
+	LEGAL;
 }
 
 /****************************************************************************

@@ -1,7 +1,7 @@
 ﻿  DNAStrand.cpp
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(89,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(185,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(209,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(237,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(90,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(186,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(210,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\DNAStrand\DNAStrand.cpp(238,20): warning C4018: '<': signed/unsigned mismatch
 MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
 C:\Users\weird\Documents\School\CS 250\Projects\a02-dna-austinnorgaard\Debug\DNAStrand.exe : fatal error LNK1120: 1 unresolved externals
